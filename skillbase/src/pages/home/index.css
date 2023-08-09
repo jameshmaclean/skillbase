@@ -1,0 +1,72 @@
+@import "../../../Global.css";
+
+.container-home {
+  width: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-start;
+  place-items: center;
+  background-color: var(--cinza);
+}
+.botao-editar {
+  background-color: var(--complementar) !important;
+  color: var(--cinza) !important;
+  margin-right: 10px !important;
+}
+.botao-salvar{
+  background-color: var(--complementar) !important;
+  color: var(--cinza) !important;
+  margin-right: 10px !important;
+}
+.botao-excluir {
+  background-color: var(--cinza) !important;
+  color: var(--complementar) !important;
+  margin-right: 10px !important;
+}
+.bloco-principal {
+  background-color: var(--cinza);
+  width: 97%;
+  color: var(--complementar);
+  padding: 10px;
+  padding-bottom: 0px;
+  height: 67vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.separador {
+  background-color: var(--cinza);
+  padding: 10px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--complementar);
+}
+.container-tabela {
+  width: 100%;
+  background-color: var(--cinza) !important;
+}
+.imagem {
+  width: 36px;
+}
+.titulo {
+  width: 100%;
+  background-color: var(--cinza);
+}
+.botao-logout {
+  background-color: var(--cinza) !important;
+  color: var(--complementar) !important;
+  height: 100%;
+}
+.botoes {
+  width: 98%;
+  padding: 10px;
+  background-color: var(--cinza);
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+}

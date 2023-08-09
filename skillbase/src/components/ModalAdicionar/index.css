@@ -1,0 +1,18 @@
+@import "../../../Global.css";
+
+.botaoModal {
+  height: 30px;
+  background-color: var(--complementar) !important;
+  color: var(--cinza) !important;
+}
+.botaoModalCancelar {
+  margin-top: 10px;
+  background-color: var(--cinza) !important;
+  color: var(--complementar) !important;
+}
+.botaoModalCancelar:hover {
+  background-color: var(--cor-secundaria);
+}
+.botaoModal:hover {
+  background-color: var(--cor-secundaria);
+}

@@ -1,0 +1,17 @@
+@import "../../../Global.css";
+
+.header {
+  height: 150px;
+  margin-top: 0;
+  padding: 0;
+  background-color: var(--cor-primaria);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.header img {
+  width: 23%;
+  justify-items: center;
+  align-items: center;
+  fill: white;
+}

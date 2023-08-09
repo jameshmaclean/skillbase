@@ -1,0 +1,59 @@
+@import "../../../Global.css";
+
+.container {
+  background-color: var(--cinza) !important;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box-login {
+  background-color: var(--cinza);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 30%;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+.background {
+  width: 50%;
+}
+.background img {
+  width: 100%;
+  height: 100%;
+}
+.inputs h1 {
+  color: var(--complementar);
+  font-size: x-large;
+}
+.inputs {
+  border: 1px solid rgb(218, 218, 218);
+  gap: 10px;
+  padding: 10px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+.botao-entrar {
+  color: var(--cinza) !important;
+  background-color: var(--complementar) !important;
+}
+.botao-entrar:focus {
+  outline: none;
+}
+.lembrar {
+  color: black;
+  align-self: flex-end;
+}
+.registrar {
+  color: var(--complementar);
+  align-self: center;
+  font-weight: 600;
+  cursor: pointer;
+}

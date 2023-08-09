@@ -1,0 +1,13 @@
+:root{
+    --cor-primaria:#08AFA5;
+    --cor-secundaria: #186271;
+    --cinza:#E8ECEF;
+    --complementar: #463AA8;
+    --terciaria: #f2f2f2;
+    --branco: #fff;
+    --preto-suave:#c9c9c9;
+}
+
+button:focus{
+    outline: none;
+}
